@@ -786,7 +786,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3xXA8g56RzwicO_SQfy5" name="Skola">
-    <mxGraphModel dx="1148" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="666" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -994,7 +994,7 @@
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lcVE3obpoYlU1E9R1SPL-27" value="Course" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="1383" y="370" width="160" height="112" as="geometry" />
+          <mxGeometry x="1383" y="361" width="160" height="112" as="geometry" />
         </mxCell>
         <mxCell id="lcVE3obpoYlU1E9R1SPL-28" value="+ courseName: String" style="text;strokeColor=#ae4132;fillColor=#fad9d5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lcVE3obpoYlU1E9R1SPL-27">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -1008,7 +1008,7 @@
         <mxCell id="lcVE3obpoYlU1E9R1SPL-31" value="+ method(type): type" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lcVE3obpoYlU1E9R1SPL-27">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="lcVE3obpoYlU1E9R1SPL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;endSize=22;exitX=-0.007;exitY=0.688;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.991;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lcVE3obpoYlU1E9R1SPL-28" target="uP71wbr_AOqP8Lc5BT7T-26">
+        <mxCell id="lcVE3obpoYlU1E9R1SPL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;endSize=22;" edge="1" parent="1" source="lcVE3obpoYlU1E9R1SPL-27" target="lcVE3obpoYlU1E9R1SPL-23">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1403" y="404" as="sourcePoint" />
             <mxPoint x="1330" y="390" as="targetPoint" />
