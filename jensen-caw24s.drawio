@@ -1366,11 +1366,409 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="p67g80cuANUYhWljFAyn" name="Sida-3">
-    <mxGraphModel dx="1426" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="p67g80cuANUYhWljFAyn" name="Coffee Machine">
+    <mxGraphModel dx="2037" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GbtjlIXHMv--jNecir7G-1" value="Use Case Diagram" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Garamond;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="30" width="190" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-3" value="Coffee Machine" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="315" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-4" target="GbtjlIXHMv--jNecir7G-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-4" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-5" target="GbtjlIXHMv--jNecir7G-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-5" target="GbtjlIXHMv--jNecir7G-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-5" value="Order Coffee" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-10" value="Check for ingredients" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-11" value="Update ingredients" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="310" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-10" target="GbtjlIXHMv--jNecir7G-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-11" target="GbtjlIXHMv--jNecir7G-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-16" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="580" y="180" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="640" as="sourcePoint" />
+            <mxPoint x="680" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="480" as="sourcePoint" />
+            <mxPoint x="10" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-19" value="Class Diagram" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Garamond;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="690" y="10" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=16;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-26" target="GbtjlIXHMv--jNecir7G-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-26" value="CoffeeMachineController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="41" width="280" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-27" value="- coffeeMachineService: CoffeeMachineService" style="text;strokeColor=#36393d;fillColor=#ffcccc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-26">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-29" value="+ postOrderCoffe(coffee type): String" style="text;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-26">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=16;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-31" target="GbtjlIXHMv--jNecir7G-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-31" value="CoffeeMachineService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="233" width="280" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-32" value="- ingredientRepository: IngredientRepository" style="text;strokeColor=#36393d;fillColor=#ffcccc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-31">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-34" value="+ postOrderCoffe(coffee type): String" style="text;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-31">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-44" value="IngredientRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="460" width="280" height="52" as="geometry">
+            <mxRectangle x="1080" y="439" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-119" value="+ findByName(String): Ingredient" style="text;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-44">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-80" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endSize=6;startSize=16;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-49" target="GbtjlIXHMv--jNecir7G-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-49" value="Ingredient" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="356" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-50" value="+ id: long" style="text;strokeColor=#36393d;fillColor=#ffcccc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-49">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-55" value="+ name: String" style="text;strokeColor=#36393d;fillColor=#ffcccc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-49">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-58" value="+ quantityInMachine: int" style="text;strokeColor=#36393d;fillColor=#ffcccc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-49">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-91" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-60" target="GbtjlIXHMv--jNecir7G-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-60" value="CoffeeRecipe" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="41" width="280" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-61" value="+ coffeeType: String" style="text;strokeColor=#36393d;fillColor=#ffcccc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-60">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-62" value="+ recipeIngredient: Map &amp;lt;String, int&amp;gt;" style="text;strokeColor=#36393d;fillColor=#ffcccc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-60">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-63" value="+ quantityInMachine: int" style="text;strokeColor=#36393d;fillColor=#ffcccc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-60">
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-92" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-71" target="GbtjlIXHMv--jNecir7G-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-71" value="CoffeeRecipeRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="220" width="280" height="104" as="geometry">
+            <mxRectangle x="1400" y="324" width="170" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-72" value="- recipe: CoffeeRecipe" style="text;strokeColor=#36393d;fillColor=#ffcccc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-71">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-74" value="+ getAllRecipes(): [CoffeeRecipe]" style="text;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-71">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-75" value="+ getRecipeByName(String): Coffee" style="text;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-71">
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-94" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-76" target="GbtjlIXHMv--jNecir7G-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-76" value="InvalidRequestException" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="870" y="255" width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-78" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="GbtjlIXHMv--jNecir7G-76">
+          <mxGeometry y="26" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-81" value="IngredientDataLoader" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="540" width="160" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-87" value="+ run(): void" style="text;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-81">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-84" value="- resetIngredients(): void" style="text;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GbtjlIXHMv--jNecir7G-81">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-88" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-49" target="GbtjlIXHMv--jNecir7G-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-90" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=16;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-32" target="GbtjlIXHMv--jNecir7G-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-96" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1800" y="640" as="sourcePoint" />
+            <mxPoint x="1800" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-99" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="691" y="640" as="sourcePoint" />
+            <mxPoint x="1791" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-100" value="User" style="html=1;whiteSpace=wrap;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Garamond;fontSize=18;fontColor=default;fontStyle=1;labelBackgroundColor=none;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="660" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-101" value="CoffeMachineController" style="html=1;whiteSpace=wrap;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Garamond;fontSize=18;fontColor=default;fontStyle=1;labelBackgroundColor=none;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="660" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-103" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="GbtjlIXHMv--jNecir7G-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="1160" as="sourcePoint" />
+            <mxPoint x="100" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-104" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="GbtjlIXHMv--jNecir7G-101">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1160" as="sourcePoint" />
+            <mxPoint x="329.58000000000004" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-105" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="GbtjlIXHMv--jNecir7G-107">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="1160" as="sourcePoint" />
+            <mxPoint x="549.9727272727273" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-106" value="POST: /api/coffee/order" style="endArrow=block;endFill=1;endSize=14;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="760" as="sourcePoint" />
+            <mxPoint x="330" y="760" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-107" value="CoffeMachineService" style="html=1;whiteSpace=wrap;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Garamond;fontSize=18;fontColor=default;fontStyle=1;labelBackgroundColor=none;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="660" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-108" value="CoffeeRecipeRepository" style="html=1;whiteSpace=wrap;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Garamond;fontSize=18;fontColor=default;fontStyle=1;labelBackgroundColor=none;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="660" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-109" value="IngredientRepository" style="html=1;whiteSpace=wrap;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Garamond;fontSize=18;fontColor=default;fontStyle=1;labelBackgroundColor=none;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="660" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-110" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="GbtjlIXHMv--jNecir7G-108">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="1160" as="sourcePoint" />
+            <mxPoint x="620" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-111" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="GbtjlIXHMv--jNecir7G-109">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="1160" as="sourcePoint" />
+            <mxPoint x="650" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-112" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;Sequence Diagram&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- User order coffee&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Garamond;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="220" y="508" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-113" value="orderCoffee()" style="endArrow=block;endFill=1;endSize=14;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="781" as="sourcePoint" />
+            <mxPoint x="580" y="781" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-114" value="getRecipeByName(...)" style="endArrow=block;endFill=1;endSize=14;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="801" as="sourcePoint" />
+            <mxPoint x="830" y="801" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-115" value="Recipe" style="endArrow=block;endFill=1;endSize=14;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="830" y="840" as="sourcePoint" />
+            <mxPoint x="580" y="840" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-118" value="findByName(...)" style="endArrow=block;endFill=1;endSize=14;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;jumpStyle=arc;jumpSize=16;" edge="1" parent="1">
+          <mxGeometry x="-0.4" width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="880" as="sourcePoint" />
+            <mxPoint x="1080" y="880" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-120" value="Ingredient" style="endArrow=block;endFill=1;endSize=14;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;jumpStyle=arc;jumpSize=16;" edge="1" parent="1">
+          <mxGeometry x="-0.4" width="160" relative="1" as="geometry">
+            <mxPoint x="1080" y="918" as="sourcePoint" />
+            <mxPoint x="580" y="918" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-121" value="Do once for each ingredient" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="491" y="860" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-122" value="Check that all ingredients are available" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="481" y="930" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-123" value="String (ordered coffee)" style="endArrow=block;endFill=1;endSize=14;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;jumpStyle=arc;jumpSize=16;" edge="1" parent="1">
+          <mxGeometry x="-0.28" width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="1118" as="sourcePoint" />
+            <mxPoint x="330" y="1118" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-128" value="String (ordered coffee)" style="endArrow=block;endFill=1;endSize=14;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;jumpStyle=arc;jumpSize=16;" edge="1" parent="1">
+          <mxGeometry x="-0.2381" width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="1141" as="sourcePoint" />
+            <mxPoint x="120" y="1141" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-130" value="findByName(...)" style="endArrow=block;endFill=1;endSize=14;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;jumpStyle=arc;jumpSize=16;" edge="1" parent="1">
+          <mxGeometry x="-0.4" width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="1009.66" as="sourcePoint" />
+            <mxPoint x="1080" y="1010" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-131" value="Ingredient" style="endArrow=block;endFill=1;endSize=14;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;jumpStyle=arc;jumpSize=16;" edge="1" parent="1">
+          <mxGeometry x="-0.4" width="160" relative="1" as="geometry">
+            <mxPoint x="1080" y="1040" as="sourcePoint" />
+            <mxPoint x="580" y="1040" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-129" value="Do once for each ingredient" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="491" y="990" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-132" value="save(..)" style="endArrow=block;endFill=1;endSize=14;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;jumpStyle=arc;jumpSize=16;" edge="1" parent="1">
+          <mxGeometry x="-0.4" width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="1080" as="sourcePoint" />
+            <mxPoint x="1080" y="1080" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-124" value="Update ingredient quantity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="491" y="1060" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-137" value="Got order" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-140" target="GbtjlIXHMv--jNecir7G-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-133" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=29;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="715" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-134" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="1160" as="sourcePoint" />
+            <mxPoint x="1240" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-139" value="Got recipes" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-136" target="GbtjlIXHMv--jNecir7G-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-136" value="&lt;font&gt;Getting recipes&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-144" value="No" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-138" target="GbtjlIXHMv--jNecir7G-142">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2235" y="895" />
+              <mxPoint x="2120" y="895" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-149" value="Yes" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-138" target="GbtjlIXHMv--jNecir7G-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-138" value="Recipe&lt;div&gt;exist&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="700" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-141" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-143" target="GbtjlIXHMv--jNecir7G-140">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="765" as="sourcePoint" />
+            <mxPoint x="1720" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-140" value="Waiting for order" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-146" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-142" target="GbtjlIXHMv--jNecir7G-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-142" value="Output&lt;div&gt;error&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="865" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-145" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-133" target="GbtjlIXHMv--jNecir7G-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="765" as="sourcePoint" />
+            <mxPoint x="1670" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-143" value="Reset ingredients" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-151" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-147" target="GbtjlIXHMv--jNecir7G-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-147" value="Getting ingredients" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-153" value="No" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-150" target="GbtjlIXHMv--jNecir7G-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-156" value="Yes" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-150" target="GbtjlIXHMv--jNecir7G-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-150" value="Required&lt;div&gt;ingredients&lt;/div&gt;&lt;div&gt;available&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2325" y="925" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-157" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-154" target="GbtjlIXHMv--jNecir7G-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-154" value="Updating ingredient" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-158" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="GbtjlIXHMv--jNecir7G-155" target="GbtjlIXHMv--jNecir7G-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-155" value="Output&lt;div&gt;success&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbtjlIXHMv--jNecir7G-159" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;Activity Diagram&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- User order coffee&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Garamond;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="910" width="260" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
